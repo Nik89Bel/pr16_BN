@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">pr16bel</string>
+    <string name="qes_text1">Лягушка относится к классу Земноводных?</string>
+    <string name="qes_text2">Все лягушки безобидные?</string>
+    <string name="qes_text3">Правда ли, что в Японии лягушка считается символом удачи?</string>
+    <string name="qes_text4">Может ли личинка лягушки дышать кожей?</string>
+    <string name="qes_text5">Вам понравился тест?</string>
+    <string name="true_button">Верно</string>
+    <string name="false_button">Ложно</string>
+    <string name="correct_toast">Правильно!</string>
+    <string name="incorrect_toast">Не правильно!</string>
+    <string name="evil_por">Неверный логин или пароль</string>
+    <string name="evil_pastbut">Достигнут минимум вопросов</string>
+    <string name="evil_nextbut">Достигнут максимум вопросов</string>
+</resources>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LoginActivity"
+    android:background="@drawable/phon">
+
+    <EditText
+        android:layout_width="210dp"
+        android:layout_height="62dp"
+        android:text="Логин"
+        android:id="@+id/log"
+        android:textSize="20dp"
+        android:layout_marginTop="285dp"
+        android:layout_marginStart="100dp"
+        android:textColor="@color/white"/>
+
+    <EditText
+        android:id="@+id/por"
+        android:layout_width="210dp"
+        android:layout_height="62dp"
+        android:layout_marginStart="-210dp"
+        android:layout_marginTop="350dp"
+        android:text="Пароль"
+        android:textColor="@color/white"
+        android:textSize="20dp" />
+
+    <Button
+        android:id="@+id/st"
+        android:layout_width="210dp"
+        android:layout_height="43dp"
+        android:layout_marginStart="-210dp"
+        android:layout_marginTop="405dp"
+        android:background="@drawable/rectangle1"
+        android:onClick="start"
+        android:text="Войти"
+        android:textColor="@color/white"/>
+
+</LinearLayout>
